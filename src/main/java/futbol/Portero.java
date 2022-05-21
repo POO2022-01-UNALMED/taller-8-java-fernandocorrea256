@@ -13,8 +13,8 @@ class Portero extends Futbolista {
         this.dorsal = dorsal;
     }
 
-    public int compareTo(Portero p) {
-        return Math.abs(this.golesRecibidos - p.golesRecibidos);
+    public int compareTo(Futbolista p) {
+        return Math.abs(this.golesRecibidos - ((Portero) p).golesRecibidos);
     }
 
     public boolean jugarConLasManos() { return true;}
