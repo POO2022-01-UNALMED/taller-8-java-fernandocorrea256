@@ -21,6 +21,6 @@ public class Portero extends Futbolista {
     
     public String toString() {
         return super.toString() + " con el dorsal " + dorsal +
-            ". Le ha marcado " + golesRecibidos; 
+            ". Le han marcado " + golesRecibidos; 
     }
 }
