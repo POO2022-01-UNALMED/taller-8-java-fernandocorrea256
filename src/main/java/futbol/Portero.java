@@ -1,6 +1,6 @@
 package futbol;
 
-import Java.lang.Math;
+import java.lang.Math;
 
 class Portero extends Futbolista {
 
