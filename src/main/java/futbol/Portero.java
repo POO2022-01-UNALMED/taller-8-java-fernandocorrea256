@@ -2,7 +2,7 @@ package futbol;
 
 import java.lang.Math;
 
-class Portero extends Futbolista {
+public class Portero extends Futbolista {
 
     public short golesRecibidos;
     public byte dorsal;
