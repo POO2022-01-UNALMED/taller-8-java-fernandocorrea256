@@ -21,7 +21,7 @@ abstract class Futbolista implements Comparable<Futbolista>{
     }
 
     public boolean equals(Futbolista f) {
-        return nombre==f.getNombre() && edad==.f.getEdad() && posicion==f.getPosicion;
+        return nombre==f.getNombre() && edad== f.getEdad() && posicion==f.getPosicion;
     }
 
     public abstract boolean jugarConLasManos();
