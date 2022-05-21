@@ -17,6 +17,10 @@ class Portero extends Futbolista {
         return Math.abs(this.golesRecibidos - p.golesRecibidos);
     }
 
-
     public boolean jugarConLasManos() { return true;}
+    
+    public String toString() {
+        return super.toString() + " con el dorsal " + dorsal +
+            ". Le ha marcado " + golesRecibidos; 
+    }
 }

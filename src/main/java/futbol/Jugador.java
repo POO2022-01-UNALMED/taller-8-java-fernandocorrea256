@@ -27,6 +27,6 @@ class Jugador extends Futbolista {
 
     public String toString() {
         return super.toString() + " con el dorsal " + dorsal +
-            ". Ha marcado " + goles ; 
+            ". Ha marcado " + golesMarcados; 
     }
 }
