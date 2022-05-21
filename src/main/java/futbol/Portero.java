@@ -12,7 +12,7 @@ class Portero extends Futbolista {
     }
 
     public int compareTo(Portero p) {
-        return abs(this.golesRecibidos - p.golesRecibidos);
+        return abs(int (this.golesRecibidos - p.golesRecibidos));
     }
 
 

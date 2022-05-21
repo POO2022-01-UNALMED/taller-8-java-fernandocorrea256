@@ -20,7 +20,7 @@ class Jugador extends Futbolista {
     public boolean jugarConLasManos() { return false; }
 
     public int compareTo(Futbolista f) {
-        return abs(this.getEdad() - f.getEdad());
+        return abs(int (this.getEdad() - f.getEdad()));
     }
 
     public String toString() {
