@@ -24,6 +24,7 @@ public abstract class Futbolista implements Comparable<Futbolista>{
         return nombre==f.getNombre() && edad== f.getEdad() && posicion==f.getPosicion();
     }
 
+    public abstract int compareTo(Futbolista f);
     public abstract boolean jugarConLasManos();
 
     // GETTERS
