@@ -1,5 +1,7 @@
 package futbol;
 
+import Java.lang.Math;
+
 class Portero extends Futbolista {
 
     public short golesRecibidos;
@@ -12,7 +14,7 @@ class Portero extends Futbolista {
     }
 
     public int compareTo(Portero p) {
-        return abs(int (this.golesRecibidos - p.golesRecibidos));
+        return Math.abs(this.golesRecibidos - p.golesRecibidos);
     }
 
 
